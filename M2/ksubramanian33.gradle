@@ -1,0 +1,13 @@
+defaultTasks 'jar'
+
+
+apply plugin: 'java'
+
+dependencies {
+    compile files ('/Users/kalyasubramanian1/Documents/cs2340/WaterQuality/M2/lib/resources.jar')
+}
+
+jar {
+    manifest.attributes("Main-Class": "/Users/kalyasubramanian1/Documents/cs2340/WaterQuality/M2/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java", 'Class-Path': '/Users/kalyasubramanian1/Documents/cs2340/WaterQuality/M2/lib/resources.jar')
+}
+

@@ -31,12 +31,12 @@ public class Person4 {
      */
     private String calc(String input) {
         char [] c = input.toCharArray();
-        for (int i = 0; i < c.length, i++) {
+        for (int i = 0; i < c.length; i++) {
             c[i] += 1;
         }
 
         String returnString = "";
-        for (int i = 0; i < c.length, i++) {
+        for (int i = 0; i < c.length; i++) {
             returnString += c[i];
         }
 
