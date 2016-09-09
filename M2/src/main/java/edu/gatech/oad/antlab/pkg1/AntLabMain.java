@@ -11,6 +11,7 @@ import edu.gatech.oad.antlab.pkg2.AntLab21;
 import edu.gatech.oad.antlab.pkg2.AntLab22;
 
 
+
 /**
  * CS2335 Ant Lab
  *
@@ -89,6 +90,7 @@ import edu.gatech.oad.antlab.pkg2.AntLab22;
 
     /**
      * entry point for the program
+     * @param args The entered arguments
      */
      public static void main(String[] args) {
 
